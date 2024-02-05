@@ -170,7 +170,7 @@ elseif args[1] == "to-ppm" then
 			done = true
 		else
 			local chars = {}
-    			str:gsub(".", function(c) table.insert(chars, c) end)
+    			data:gsub(".", function(c) table.insert(chars, c) end)
 			for i,v in ipairs(chars) do
 				if v == "0" then
 					ppm.write("240 240 240 ")
