@@ -175,49 +175,49 @@ elseif args[1] == "to-ppm" then
 				if v == "0" then
 					ppm.write("240 240 240 ")
 				end
-				if v == "0" then
+				if v == "1" then
 					ppm.write("242 178 51 ")
 				end
-				if v == "0" then
+				if v == "2" then
 					ppm.write("229 127 216 ")
 				end
-				if v == "0" then
+				if v == "3" then
 					ppm.write("153 178 242 ")
 				end
-				if v == "0" then
+				if v == "4" then
 					ppm.write("222 222 108 ")
 				end
-				if v == "0" then
+				if v == "5" then
 					ppm.write("127 204 25 ")
 				end
-				if v == "0" then
+				if v == "6" then
 					ppm.write("242 178 204 ")
 				end
-				if v == "0" then
+				if v == "7" then
 					ppm.write("76 76 76 ")
 				end
-				if v == "0" then
+				if v == "8" then
 					ppm.write("153 153 153 ")
 				end
-				if v == "0" then
+				if v == "9" then
 					ppm.write("76 153 178 ")
 				end
-				if v == "0" then
+				if v == "a" then
 					ppm.write("178 102 229 ")
 				end
-				if v == "0" then
+				if v == "b" then
 					ppm.write("51 102 204 ")
 				end
-				if v == "0" then
+				if v == "c" then
 					ppm.write("127 102 76 ")
 				end
-				if v == "0" then
+				if v == "d" then
 					ppm.write("87 166 78 ")
 				end
-				if v == "0" then
+				if v == "e" then
 					ppm.write("204 76 76 ")
 				end
-				if v == "0" then
+				if v == "f" then
 					ppm.write("17 17 17 ")
 				end
 			end
