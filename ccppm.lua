@@ -138,7 +138,7 @@ if args[1] == "from-ppm" then
 				greatest = distance
 				greatname = "f"
 			end
-			pic.write(greatname.." ")
+			pic.write(greatname)
 		end
 		pic.write("\n")
 	end
