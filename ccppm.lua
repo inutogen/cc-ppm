@@ -25,6 +25,7 @@ if args[1] == "from-ppm" then
 			table.insert(mainTab, maini, newTab)
 		end
   	until done == true
+	pic = fs.open(args[3], "w")
 	for i,v in ipairs(mainTab) do
 		for i1,v1 in ipairs(v) do
 			local prgb = vector.new(v1[1], v1[2], v1[3])
@@ -137,7 +138,8 @@ if args[1] == "from-ppm" then
 				greatest = distance
 				greatname = "f"
 			end
-			print(greatest, greatname)
+			pic.write(greatname.." ")
 		end
+		pic.write("\n")
 	end
 end
